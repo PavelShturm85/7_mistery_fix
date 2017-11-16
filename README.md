@@ -1,15 +1,15 @@
 # Решатель квадратных уравнений
 
-This function counting the quadratic equation.
+Эта функция вычисляет квадратное уравнение.
 
 # Как использовать
 
-Three values are transferred to the function get_roots(a, b, c). Then the quadratic equation is considered.
+Три значения передаются функции get_roots (a, b, c). Затем вычисляется квадратное уравнение.
 
-   - If a=0 the function linear, not quadratic.
-   - The square root can not extracted if discriminant less then 0.
-   - If discriminant is 0, then roots of the quadratic equation 1.
-   - If discriminant > 0, then roots of the quadratic equation 2.
+    - Если а = 0, то функция линейна, а не квадратична.
+    - Квадратный корень не может быть извлечен, если дискриминант меньше 0.
+    - Если дискриминант равен 0, то корень у квадратного уравнения 1.
+    - Если дискриминант > 0, то корня у квадратного уравнения 2.
 
 ```python
 from math import sqrt
