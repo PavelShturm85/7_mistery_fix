@@ -1,10 +1,22 @@
 # Решатель квадратных уравнений
 
-[TODO. Здесь будет описание проекта]
+This function counting the quadratic equation.
 
 # Как использовать
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
+Three values are transferred to the function get_roots(a, b, c). Then the quadratic equation is considered.
+
+   - If a=0 the function linear, not quadratic.
+   - The square root can not extracted if discriminant less then 0.
+   - If discriminant is 0, then roots of the quadratic equation 1.
+   - If discriminant > 0, then roots of the quadratic equation 2.
+
+```python
+from math import sqrt
+
+root1 = (-b - sqrt(discriminant)) / (2 * a)
+root2 = (-b + sqrt(discriminant)) / (2 * a)
+```
 
 # Как запустить
 
