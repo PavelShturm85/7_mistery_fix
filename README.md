@@ -4,13 +4,13 @@
 
 # Как использовать
 
-Импортировать функцию из модуля и запустить с аргументами.
+Необходмо импортировать функцию из модуля quadratic_equation, затем передать значения в get_roots(a, b, c), где a, b, c - это вещественные числа.
 
 ```python
-from math import sqrt
+from quadratic_equation import get_roots
 
-root1 = (-b - sqrt(discriminant)) / (2 * a)
-root2 = (-b + sqrt(discriminant)) / (2 * a)
+
+root1, root2 = get_roots (a, b, c)
 ```
 
 # Как запустить
